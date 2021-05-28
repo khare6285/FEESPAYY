@@ -1,0 +1,295 @@
+@media (max-width: 770px){
+    label.logo{
+      font-size: 30px;
+      margin-top: 0px;
+      padding-left: 0px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 770px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+    #intro{
+      text-align: left;
+      color: rgb(94, 86, 86);
+      font-size: 2rem;
+      font-weight: 600;
+  }
+  h5{
+    text-align: left;
+  }
+  }
+@media (max-width: 770px) {
+
+    .part1{
+        display:block; 
+        width: 100%;
+        margin: 0px opx 0px 0px;
+    }
+    .block1{
+        width: 100%;
+        display: block;
+    }
+    .block2{
+       display: block;
+       width: 100%;
+   }
+  #limg{
+    margin-top: 200px  ;
+    height: 350px;
+    width: 300px;
+  }
+  .Features{
+    display:flex;
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .features1{
+    text-align: center;
+    margin:40px;
+    padding: 8px;
+    font-size: 1.5rem;
+    flex: 1;
+  }
+  h2{
+      margin-top: 200px;
+      font-size: 2rem;
+  }
+  h3{
+    text-align:center;
+  }
+  .features2{
+    text-align:center;
+    font-size: 1.5rem;
+    margin:40px;
+    flex: 1;
+  }
+  .features3{
+    font-size: 1.5rem;
+    text-align: center;
+    margin:40px;
+    flex: 1;
+  }
+  .simg{
+    width: 380px;
+    height: 400px;
+  }
+  
+
+
+
+
+
+
+  .blue{
+    background-color: rgb(0, 114, 207);
+    width: 100%;
+    height: 2%;
+    display:flex;
+    margin: 0%;
+    padding: 2%;  
+    flex-wrap: wrap;
+}
+.button2{
+  display: inline;
+  margin: -10px 5px;
+  padding: 20px;
+}
+.blueline{
+  display: block;
+}
+#p1{
+    display: inline-block;
+    width: 800px;
+    padding: 10px;
+    height: 400px;
+}
+#p2{
+    display: inline-block;
+
+    margin: 1px 20px;
+    padding: -10px;
+    width: 200px;
+    height: 1px;
+}
+#p3{
+  display: inline-block;
+  margin: 1px 2px;
+  padding: 1px;
+  width: 200px;
+  height: 1px;
+}
+
+   #headline{
+    display: inline-block;
+    font-size: 3rem;
+    margin-left: 0%;
+    text-align: left;
+    color: white;
+}
+.lpart{
+  display: block;
+  width: 100%;
+  height: 600px;
+  flex-wrap: wrap;
+}
+.lpart1{
+  display: inline-block;
+  width: 100px;
+  margin: 150px;
+}
+#lpart1{
+  height: 200px;
+  width: 25%;
+}
+#lpart2{
+  margin: -150px 0px 0px -100px;
+  width: 300px;
+  height: 400px;
+}
+per{
+  font-size: 2rem;
+}
+h5{
+  text-align: left;
+}
+
+.slot{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+#slot1{
+  display: block;
+  height: 50%;
+  width: 50%;
+} 
+#slot2{
+  display: block;
+  text-align: center;
+  margin: 30px 100px;
+  height: 50%;
+  width: 50%;
+}
+#p2{
+  display: block;
+  width: 200px;
+  height: 10px;
+  margin: -100px 120px;
+}
+#p3{
+  display: block;
+  width: 200px;
+  height: 10px;    
+  margin: -100px ;
+}
+
+
+.block2{
+  background-color: rgb(194, 189, 189);
+  height: 900px;
+  display: block;
+  margin-top: 500px;
+  flex-wrap: nowrap;
+}
+
+.single{
+  display: block;
+  width: 10px;
+}
+#part1{
+  display: block;
+  height: 250px;
+  width: 300px;
+ } 
+
+ #part3{
+  height: 200px;
+  width: 300px;
+ }
+
+ #part2{
+  height: 300px;
+  width: 300px;
+}
+
+.block2 .single ul li a:hover{
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:770px){
+    .main{
+        display: block;
+    }
+    .Features{
+        display: block;
+  }
+    .headline{
+        display: block;
+    }
+  }
+  @media (max-width:770px) {
+    .part1{
+        display:block;
+        text-align: center;
+    }
+    .block1{
+        display:block;
+        width: 100%;
+        text-align: center;
+    }
+    #item1{
+        display: block;
+        margin: auto;
+    }
+    #item2{
+        display: block;
+        margin: auto;
+    }
+  }
+  
